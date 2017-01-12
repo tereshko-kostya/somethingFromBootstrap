@@ -1,0 +1,60 @@
+body{
+	margin:0;
+	padding:0;
+}
+.head{
+	background-color:#000;
+	height:20px;
+	color:#fff;
+}
+.body{
+	height:1000px;
+	background-image:url("TentacleEmblem.jpg");
+	padding:10px;
+}
+h1{
+	font-size:25px;
+	font-style:italic;
+	text-align:center;
+	color:#000;
+}
+.panel{
+	float:left;
+	margin-right:90px;
+	width:250px;
+	height:500px;
+	background-color:White;
+	box-shadow: 0 0 30px rgba(100,0,0,0.5);
+	display:inline-block;
+}
+.avatar{
+	padding:20px;
+	height:200px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.wall{
+	margin-top:-50px;
+	float:left;
+	width:900px;
+	height:500px;
+	background-color:White;
+	box-shadow: 0 0 30px rgba(100,0,0,0.5);
+	display:inline-block;
+}
+.footer{
+	background-color:pink;
+	height:100px;
+	box-shadow: 0 20 30px rgba(0,0,0,0.1);
+}
+.navigation{
+	display:inline-block;
+	padding-right:10px;
+}
+.ent{
+	display:inline-block;
+	text-align:right;
+}
+.headerRight{
+	float:right;
+	display:inline-block;
+}
