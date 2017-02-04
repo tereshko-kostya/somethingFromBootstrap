@@ -1,42 +1,117 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<link href= "tereshko-kostya.github.io\css\style.css" rel="stylesheet">
-		<title>Tentacle</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">		
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>				
 	</head>
 	<body>
-		<section class="head">
-			<div class="fuckingAss">
-				<div class="headerLeft">
-					<ul>
-						<li class="navigation">MyPage</li>
-						<li class="navigation">MyAss</li>
-						<li class="navigation">Photo</li>
-					</ul>
-				</div>
-				<div class="headerRight">
-					<ul>
-						<li class="ent">Login</li>
-						<li class="ent">Reg</li>
-					</ul>
-				</div>
+		<div class="container">
+			<h1>Мой первый заголовок bootstrap</h1>
+			<p>Какой-то текст</p> 
+			
+			<div class="row">
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
+				<div class="col-sm-1" align="center">.col-sm-1</div>
 			</div>
-		</section>
-		<section>
-			<div class="body">				
-				<div class="panel">
-					<h1>Tentacle Petrovich
-					<div class="avatar">
-						<img src="tereshko-kostya.github.io\img\TentacleEmblem.jpg">
-					</div>
-				</div>
-				<div class="wall">
-					<h1>ASS
-				</div>
-			</div>			
-		</section>
-		<section>
-			<div class="footer">				
+			<div class="ass1">
+				<h1>Head 1 <small>small text</small></h1>
+				<h2>Head 2 <small>small text</small></h2>
+				<h3>Head 3 <small>small text</small></h3>
+				<h4>Head 4 <small>small text</small></h4>
+				<h5>Head 5 <small>small text</small></h5>
+				<h6>Head 6 <small>small text</small></h6>
 			</div>
-		</section>
+			<div class="ass2">
+				<p>
+					<mark>Выделеный текст</mark>
+					<abbr title="assss">Абривиатура</abbr>
+					<blockquote>
+						<p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization,
+								WWF works in 100 countries and is supported by 1.2 million 
+							members in the United States and close to 5 million globally.</p>
+						<footer>Текст в блоке ковычек в теге <code>footer</code></footer>
+					</blockquote>
+					<blockquote class="blockquote-reverse">
+						<p>For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization,
+								WWF works in 100 countries and is supported by 1.2 million 
+							members in the United States and close to 5 million globally.</p>
+						<footer>Текст в блоке ковычек в теге <code>footer</code></footer>
+					</blockquote>
+					<h1>Description Lists</h1>    
+					<p>The dl element indicates a description list:</p>
+					<dl>
+						<dt>Кофе</dt>
+						<dd>- чёрный горячий напиток</dd>
+						<dt>Молоко</dt>
+						<dd>- белый холодный напиток</dd>
+					</dl> 
+					<code>выделяет код</code>
+					<kbd>выделяет клавиатурные комбинации</kbd>
+					<pre>
+					выделяет код с
+					множество строк</pre>
+					<h2>Contextual Colors</h2>
+					<p>Use the contextual classes to provide "meaning through colors":</p>
+					<p class="text-muted">Этот текст "нерабочий"</p>
+					<p class="text-primary">Этот текст с важной информацией</p>
+					<p class="text-success">Этот текст обозначает "выполнено"</p>
+					<p class="text-info">Этот текст обозначает информцию</p>
+					<p class="text-warning">Этот текст обозначает "внимание"</p>
+					<p class="text-danger">Этот текст обозначает опасность</p>
+					<h2>Contextual Backgrounds</h2>
+					<p>Use the contextual background classes to provide "meaning through colors":</p>
+					<p class="bg-primary">Этот текст с важной информацией</p>
+					<p class="bg-success">Этот текст обозначает "выполнено"</p>
+					<p class="bg-info">Этот текст обозначает информцию</p>
+					<p class="bg-warning">Этот текст обозначает "внимание"</p>
+					<p class="bg-danger">Этот текст обозначает опасность</p>
+				</p>	
+				<table class="table table-striped table-hover">
+					<thead>
+						<tr>
+							<th>Firstname</th>
+							<th>Lastname</th>
+							<th>Email</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>John</td>
+							<td>Doe</td>
+							<td>john@example.com</td>
+						</tr>
+						<tr>
+							<td>Mary</td>
+							<td>Moe</td>
+							<td>mary@example.com</td>
+						</tr>
+						<tr>
+							<td>July</td>
+							<td>Dooley</td>
+							<td>july@example.com</td>
+						</tr>
+					</tbody>
+				</table>
+				<h2>Закруглёная картинка, круглая картинка, картинка в рамке</h2>
+				<img src="ass4.jpg" class="img-rounded" alt="Cinque Terre" width="304" height="236"> 	
+				<img src="ass4.jpg" class="img-circle" alt="Cinque Terre" width="304" height="236"> 
+				<img src="ass4.jpg" class="img-thumbnail" alt="Cinque Terre" width="304" height="236"> 
+				<h2>Картинка которая изменяет размер с окном</h2>				
+				<img src="ass4.jpg" class="img-responsive" alt="Cinque Terre" width="304" height="236">
+			</div>
+		</div>
 	</body>
 </html>
